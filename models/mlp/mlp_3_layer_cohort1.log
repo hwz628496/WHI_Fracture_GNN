@@ -1,0 +1,521 @@
+Dataset Shape: (31470, 64)
+Fold 1/5--------------------------
+Training Fold Label Distr: {0: 6785, 1: 2908}
+<class 'models.mlp.mlp_3_layer.mlp_3_layer'>
+Nested 1/5
+Model Params:
+	fc1.weight: torch.Size([128, 63])
+	fc1.bias: torch.Size([128])
+	fc2.weight: torch.Size([64, 128])
+	fc2.bias: torch.Size([64])
+	fc3.weight: torch.Size([1, 64])
+	fc3.bias: torch.Size([1])
+	fc_out.weight: torch.Size([1, 32])
+	fc_out.bias: torch.Size([1])
+[NESTED_FOLD]:
+	Accuracy: 0.5967
+	Precision: 0.2881
+	Recall: 0.2337
+	F1-score: 0.2581
+	AUC: 0.4908
+Nested 2/5
+Model Params:
+	fc1.weight: torch.Size([256, 63])
+	fc1.bias: torch.Size([256])
+	fc2.weight: torch.Size([128, 256])
+	fc2.bias: torch.Size([128])
+	fc3.weight: torch.Size([1, 128])
+	fc3.bias: torch.Size([1])
+	fc_out.weight: torch.Size([1, 64])
+	fc_out.bias: torch.Size([1])
+[NESTED_FOLD]:
+	Accuracy: 0.6983
+	Precision: 0.2857
+	Recall: 0.0034
+	F1-score: 0.0068
+	AUC: 0.4906
+Nested 3/5
+Model Params:
+	fc1.weight: torch.Size([512, 63])
+	fc1.bias: torch.Size([512])
+	fc2.weight: torch.Size([256, 512])
+	fc2.bias: torch.Size([256])
+	fc3.weight: torch.Size([1, 256])
+	fc3.bias: torch.Size([1])
+	fc_out.weight: torch.Size([1, 128])
+	fc_out.bias: torch.Size([1])
+[NESTED_FOLD]:
+	Accuracy: 0.6998
+	Precision: 0.0000
+	Recall: 0.0000
+	F1-score: 0.0000
+	AUC: 0.5133
+Nested 4/5
+Model Params:
+	fc1.weight: torch.Size([256, 63])
+	fc1.bias: torch.Size([256])
+	fc2.weight: torch.Size([128, 256])
+	fc2.bias: torch.Size([128])
+	fc3.weight: torch.Size([1, 128])
+	fc3.bias: torch.Size([1])
+	fc_out.weight: torch.Size([1, 64])
+	fc_out.bias: torch.Size([1])
+[NESTED_FOLD]:
+	Accuracy: 0.7002
+	Precision: 0.0000
+	Recall: 0.0000
+	F1-score: 0.0000
+	AUC: 0.4988
+Nested 5/5
+Model Params:
+	fc1.weight: torch.Size([128, 63])
+	fc1.bias: torch.Size([128])
+	fc2.weight: torch.Size([64, 128])
+	fc2.bias: torch.Size([64])
+	fc3.weight: torch.Size([1, 64])
+	fc3.bias: torch.Size([1])
+	fc_out.weight: torch.Size([1, 32])
+	fc_out.bias: torch.Size([1])
+[NESTED_FOLD]:
+	Accuracy: 0.7002
+	Precision: 0.0000
+	Recall: 0.0000
+	F1-score: 0.0000
+	AUC: 0.4836
+Optimal Threshold (Max Youden's J): 6.9800
+FRAX Train:
+	Accuracy: 0.5927
+	Precision: 0.3637
+	Recall: 0.4773
+	F1-score: 0.4128
+	AUC: 0.5836
+FRAX Test:
+	Accuracy: 0.6214
+	Precision: 0.1409
+	Recall: 0.4470
+	F1-score: 0.2143
+	AUC: 0.5695
+[FINAL TEST]:
+	Accuracy: 0.8845
+	Precision: 0.0000
+	Recall: 0.0000
+	F1-score: 0.0000
+	AUC: 0.5123
+
+
+Fold 2/5--------------------------
+Training Fold Label Distr: {0: 6785, 1: 2908}
+<class 'models.mlp.mlp_3_layer.mlp_3_layer'>
+Nested 1/5
+Model Params:
+	fc1.weight: torch.Size([128, 63])
+	fc1.bias: torch.Size([128])
+	fc2.weight: torch.Size([64, 128])
+	fc2.bias: torch.Size([64])
+	fc3.weight: torch.Size([1, 64])
+	fc3.bias: torch.Size([1])
+	fc_out.weight: torch.Size([1, 32])
+	fc_out.bias: torch.Size([1])
+[NESTED_FOLD]:
+	Accuracy: 0.6998
+	Precision: 0.0000
+	Recall: 0.0000
+	F1-score: 0.0000
+	AUC: 0.5001
+Nested 2/5
+Model Params:
+	fc1.weight: torch.Size([256, 63])
+	fc1.bias: torch.Size([256])
+	fc2.weight: torch.Size([128, 256])
+	fc2.bias: torch.Size([128])
+	fc3.weight: torch.Size([1, 128])
+	fc3.bias: torch.Size([1])
+	fc_out.weight: torch.Size([1, 64])
+	fc_out.bias: torch.Size([1])
+[NESTED_FOLD]:
+	Accuracy: 0.6998
+	Precision: 0.0000
+	Recall: 0.0000
+	F1-score: 0.0000
+	AUC: 0.4994
+Nested 3/5
+Model Params:
+	fc1.weight: torch.Size([512, 63])
+	fc1.bias: torch.Size([512])
+	fc2.weight: torch.Size([256, 512])
+	fc2.bias: torch.Size([256])
+	fc3.weight: torch.Size([1, 256])
+	fc3.bias: torch.Size([1])
+	fc_out.weight: torch.Size([1, 128])
+	fc_out.bias: torch.Size([1])
+[NESTED_FOLD]:
+	Accuracy: 0.6998
+	Precision: 0.0000
+	Recall: 0.0000
+	F1-score: 0.0000
+	AUC: 0.4985
+Nested 4/5
+Model Params:
+	fc1.weight: torch.Size([256, 63])
+	fc1.bias: torch.Size([256])
+	fc2.weight: torch.Size([128, 256])
+	fc2.bias: torch.Size([128])
+	fc3.weight: torch.Size([1, 128])
+	fc3.bias: torch.Size([1])
+	fc_out.weight: torch.Size([1, 64])
+	fc_out.bias: torch.Size([1])
+[NESTED_FOLD]:
+	Accuracy: 0.7002
+	Precision: 0.0000
+	Recall: 0.0000
+	F1-score: 0.0000
+	AUC: 0.4957
+Nested 5/5
+Model Params:
+	fc1.weight: torch.Size([128, 63])
+	fc1.bias: torch.Size([128])
+	fc2.weight: torch.Size([64, 128])
+	fc2.bias: torch.Size([64])
+	fc3.weight: torch.Size([1, 64])
+	fc3.bias: torch.Size([1])
+	fc_out.weight: torch.Size([1, 32])
+	fc_out.bias: torch.Size([1])
+[NESTED_FOLD]:
+	Accuracy: 0.6997
+	Precision: 0.0000
+	Recall: 0.0000
+	F1-score: 0.0000
+	AUC: 0.4899
+Optimal Threshold (Max Youden's J): 7.0100
+FRAX Train:
+	Accuracy: 0.5948
+	Precision: 0.3640
+	Recall: 0.4694
+	F1-score: 0.4100
+	AUC: 0.5836
+FRAX Test:
+	Accuracy: 0.6119
+	Precision: 0.1398
+	Recall: 0.4580
+	F1-score: 0.2142
+	AUC: 0.5753
+[FINAL TEST]:
+	Accuracy: 0.8845
+	Precision: 0.0000
+	Recall: 0.0000
+	F1-score: 0.0000
+	AUC: 0.5024
+
+
+Fold 3/5--------------------------
+Training Fold Label Distr: {0: 6785, 1: 2908}
+<class 'models.mlp.mlp_3_layer.mlp_3_layer'>
+Nested 1/5
+Model Params:
+	fc1.weight: torch.Size([128, 63])
+	fc1.bias: torch.Size([128])
+	fc2.weight: torch.Size([64, 128])
+	fc2.bias: torch.Size([64])
+	fc3.weight: torch.Size([1, 64])
+	fc3.bias: torch.Size([1])
+	fc_out.weight: torch.Size([1, 32])
+	fc_out.bias: torch.Size([1])
+[NESTED_FOLD]:
+	Accuracy: 0.7004
+	Precision: 1.0000
+	Recall: 0.0017
+	F1-score: 0.0034
+	AUC: 0.4851
+Nested 2/5
+Model Params:
+	fc1.weight: torch.Size([256, 63])
+	fc1.bias: torch.Size([256])
+	fc2.weight: torch.Size([128, 256])
+	fc2.bias: torch.Size([128])
+	fc3.weight: torch.Size([1, 128])
+	fc3.bias: torch.Size([1])
+	fc_out.weight: torch.Size([1, 64])
+	fc_out.bias: torch.Size([1])
+[NESTED_FOLD]:
+	Accuracy: 0.6998
+	Precision: 0.0000
+	Recall: 0.0000
+	F1-score: 0.0000
+	AUC: 0.5178
+Nested 3/5
+Model Params:
+	fc1.weight: torch.Size([512, 63])
+	fc1.bias: torch.Size([512])
+	fc2.weight: torch.Size([256, 512])
+	fc2.bias: torch.Size([256])
+	fc3.weight: torch.Size([1, 256])
+	fc3.bias: torch.Size([1])
+	fc_out.weight: torch.Size([1, 128])
+	fc_out.bias: torch.Size([1])
+[NESTED_FOLD]:
+	Accuracy: 0.6998
+	Precision: 0.0000
+	Recall: 0.0000
+	F1-score: 0.0000
+	AUC: 0.4963
+Nested 4/5
+Model Params:
+	fc1.weight: torch.Size([256, 63])
+	fc1.bias: torch.Size([256])
+	fc2.weight: torch.Size([128, 256])
+	fc2.bias: torch.Size([128])
+	fc3.weight: torch.Size([1, 128])
+	fc3.bias: torch.Size([1])
+	fc_out.weight: torch.Size([1, 64])
+	fc_out.bias: torch.Size([1])
+[NESTED_FOLD]:
+	Accuracy: 0.6997
+	Precision: 0.4667
+	Recall: 0.0120
+	F1-score: 0.0235
+	AUC: 0.4895
+Nested 5/5
+Model Params:
+	fc1.weight: torch.Size([128, 63])
+	fc1.bias: torch.Size([128])
+	fc2.weight: torch.Size([64, 128])
+	fc2.bias: torch.Size([64])
+	fc3.weight: torch.Size([1, 64])
+	fc3.bias: torch.Size([1])
+	fc_out.weight: torch.Size([1, 32])
+	fc_out.bias: torch.Size([1])
+[NESTED_FOLD]:
+	Accuracy: 0.7007
+	Precision: 1.0000
+	Recall: 0.0017
+	F1-score: 0.0034
+	AUC: 0.5207
+Optimal Threshold (Max Youden's J): 5.5600
+FRAX Train:
+	Accuracy: 0.5037
+	Precision: 0.3364
+	Recall: 0.6730
+	F1-score: 0.4486
+	AUC: 0.5751
+FRAX Test:
+	Accuracy: 0.4611
+	Precision: 0.1320
+	Recall: 0.6575
+	F1-score: 0.2199
+	AUC: 0.5859
+[FINAL TEST]:
+	Accuracy: 0.8842
+	Precision: 0.0000
+	Recall: 0.0000
+	F1-score: 0.0000
+	AUC: 0.4903
+
+
+Fold 4/5--------------------------
+Training Fold Label Distr: {0: 6785, 1: 2908}
+<class 'models.mlp.mlp_3_layer.mlp_3_layer'>
+Nested 1/5
+Model Params:
+	fc1.weight: torch.Size([128, 63])
+	fc1.bias: torch.Size([128])
+	fc2.weight: torch.Size([64, 128])
+	fc2.bias: torch.Size([64])
+	fc3.weight: torch.Size([1, 64])
+	fc3.bias: torch.Size([1])
+	fc_out.weight: torch.Size([1, 32])
+	fc_out.bias: torch.Size([1])
+[NESTED_FOLD]:
+	Accuracy: 0.6998
+	Precision: 0.0000
+	Recall: 0.0000
+	F1-score: 0.0000
+	AUC: 0.4759
+Nested 2/5
+Model Params:
+	fc1.weight: torch.Size([256, 63])
+	fc1.bias: torch.Size([256])
+	fc2.weight: torch.Size([128, 256])
+	fc2.bias: torch.Size([128])
+	fc3.weight: torch.Size([1, 128])
+	fc3.bias: torch.Size([1])
+	fc_out.weight: torch.Size([1, 64])
+	fc_out.bias: torch.Size([1])
+[NESTED_FOLD]:
+	Accuracy: 0.6998
+	Precision: 0.0000
+	Recall: 0.0000
+	F1-score: 0.0000
+	AUC: 0.4901
+Nested 3/5
+Model Params:
+	fc1.weight: torch.Size([512, 63])
+	fc1.bias: torch.Size([512])
+	fc2.weight: torch.Size([256, 512])
+	fc2.bias: torch.Size([256])
+	fc3.weight: torch.Size([1, 256])
+	fc3.bias: torch.Size([1])
+	fc_out.weight: torch.Size([1, 128])
+	fc_out.bias: torch.Size([1])
+[NESTED_FOLD]:
+	Accuracy: 0.7004
+	Precision: 1.0000
+	Recall: 0.0017
+	F1-score: 0.0034
+	AUC: 0.4863
+Nested 4/5
+Model Params:
+	fc1.weight: torch.Size([256, 63])
+	fc1.bias: torch.Size([256])
+	fc2.weight: torch.Size([128, 256])
+	fc2.bias: torch.Size([128])
+	fc3.weight: torch.Size([1, 128])
+	fc3.bias: torch.Size([1])
+	fc_out.weight: torch.Size([1, 64])
+	fc_out.bias: torch.Size([1])
+[NESTED_FOLD]:
+	Accuracy: 0.7002
+	Precision: 0.0000
+	Recall: 0.0000
+	F1-score: 0.0000
+	AUC: 0.4985
+Nested 5/5
+Model Params:
+	fc1.weight: torch.Size([128, 63])
+	fc1.bias: torch.Size([128])
+	fc2.weight: torch.Size([64, 128])
+	fc2.bias: torch.Size([64])
+	fc3.weight: torch.Size([1, 64])
+	fc3.bias: torch.Size([1])
+	fc_out.weight: torch.Size([1, 32])
+	fc_out.bias: torch.Size([1])
+[NESTED_FOLD]:
+	Accuracy: 0.7007
+	Precision: 1.0000
+	Recall: 0.0017
+	F1-score: 0.0034
+	AUC: 0.5173
+Optimal Threshold (Max Youden's J): 6.9800
+FRAX Train:
+	Accuracy: 0.5920
+	Precision: 0.3616
+	Recall: 0.4704
+	F1-score: 0.4089
+	AUC: 0.5775
+FRAX Test:
+	Accuracy: 0.6192
+	Precision: 0.1462
+	Recall: 0.4746
+	F1-score: 0.2235
+	AUC: 0.5923
+[FINAL TEST]:
+	Accuracy: 0.8842
+	Precision: 0.0000
+	Recall: 0.0000
+	F1-score: 0.0000
+	AUC: 0.4960
+
+
+Fold 5/5--------------------------
+Training Fold Label Distr: {0: 6785, 1: 2908}
+<class 'models.mlp.mlp_3_layer.mlp_3_layer'>
+Nested 1/5
+Model Params:
+	fc1.weight: torch.Size([128, 63])
+	fc1.bias: torch.Size([128])
+	fc2.weight: torch.Size([64, 128])
+	fc2.bias: torch.Size([64])
+	fc3.weight: torch.Size([1, 64])
+	fc3.bias: torch.Size([1])
+	fc_out.weight: torch.Size([1, 32])
+	fc_out.bias: torch.Size([1])
+[NESTED_FOLD]:
+	Accuracy: 0.6998
+	Precision: 0.0000
+	Recall: 0.0000
+	F1-score: 0.0000
+	AUC: 0.5015
+Nested 2/5
+Model Params:
+	fc1.weight: torch.Size([256, 63])
+	fc1.bias: torch.Size([256])
+	fc2.weight: torch.Size([128, 256])
+	fc2.bias: torch.Size([128])
+	fc3.weight: torch.Size([1, 128])
+	fc3.bias: torch.Size([1])
+	fc_out.weight: torch.Size([1, 64])
+	fc_out.bias: torch.Size([1])
+[NESTED_FOLD]:
+	Accuracy: 0.6998
+	Precision: 0.0000
+	Recall: 0.0000
+	F1-score: 0.0000
+	AUC: 0.5031
+Nested 3/5
+Model Params:
+	fc1.weight: torch.Size([512, 63])
+	fc1.bias: torch.Size([512])
+	fc2.weight: torch.Size([256, 512])
+	fc2.bias: torch.Size([256])
+	fc3.weight: torch.Size([1, 256])
+	fc3.bias: torch.Size([1])
+	fc_out.weight: torch.Size([1, 128])
+	fc_out.bias: torch.Size([1])
+[NESTED_FOLD]:
+	Accuracy: 0.6983
+	Precision: 0.4348
+	Recall: 0.0172
+	F1-score: 0.0331
+	AUC: 0.4944
+Nested 4/5
+Model Params:
+	fc1.weight: torch.Size([256, 63])
+	fc1.bias: torch.Size([256])
+	fc2.weight: torch.Size([128, 256])
+	fc2.bias: torch.Size([128])
+	fc3.weight: torch.Size([1, 128])
+	fc3.bias: torch.Size([1])
+	fc_out.weight: torch.Size([1, 64])
+	fc_out.bias: torch.Size([1])
+[NESTED_FOLD]:
+	Accuracy: 0.7002
+	Precision: 0.0000
+	Recall: 0.0000
+	F1-score: 0.0000
+	AUC: 0.4789
+Nested 5/5
+Model Params:
+	fc1.weight: torch.Size([128, 63])
+	fc1.bias: torch.Size([128])
+	fc2.weight: torch.Size([64, 128])
+	fc2.bias: torch.Size([64])
+	fc3.weight: torch.Size([1, 64])
+	fc3.bias: torch.Size([1])
+	fc_out.weight: torch.Size([1, 32])
+	fc_out.bias: torch.Size([1])
+[NESTED_FOLD]:
+	Accuracy: 0.7002
+	Precision: 0.0000
+	Recall: 0.0000
+	F1-score: 0.0000
+	AUC: 0.4857
+Optimal Threshold (Max Youden's J): 7.7900
+FRAX Train:
+	Accuracy: 0.6291
+	Precision: 0.3784
+	Recall: 0.3676
+	F1-score: 0.3729
+	AUC: 0.5799
+FRAX Test:
+	Accuracy: 0.6873
+	Precision: 0.1488
+	Recall: 0.3618
+	F1-score: 0.2109
+	AUC: 0.5733
+[FINAL TEST]:
+	Accuracy: 0.8845
+	Precision: 0.0000
+	Recall: 0.0000
+	F1-score: 0.0000
+	AUC: 0.4994
+
+

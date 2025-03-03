@@ -1,0 +1,156 @@
+Dataset Shape: (74204, 67)
+Fold 1/5--------------------------
+Training Fold Label Distr: {0: 8103, 1: 3473}
+Best Parameters: {'C': 1.5264179671752334}
+MODEL Train:
+	Accuracy: 0.7070
+	Precision: 0.5638
+	Recall: 0.1031
+	F1-score: 0.1743
+	AUC: 0.6495
+Optimal Threshold (Max Youden's J): 7.3700
+FRAX Train:
+	Accuracy: 0.5942
+	Precision: 0.3578
+	Recall: 0.4434
+	F1-score: 0.3960
+	AUC: 0.5684
+Test Fold Label Distr: {0: 13973, 1: 868}
+MODEL Test:
+	Accuracy: 0.9119
+	Precision: 0.1408
+	Recall: 0.0991
+	F1-score: 0.1163
+	AUC: 0.6222
+FRAX Test:
+	Accuracy: 0.6365
+	Precision: 0.0671
+	Recall: 0.4044
+	F1-score: 0.1151
+	AUC: 0.5485
+
+
+Fold 2/5--------------------------
+Training Fold Label Distr: {0: 8103, 1: 3473}
+Best Parameters: {'C': 6.250551925273976}
+MODEL Train:
+	Accuracy: 0.7061
+	Precision: 0.5669
+	Recall: 0.0867
+	F1-score: 0.1503
+	AUC: 0.6420
+Optimal Threshold (Max Youden's J): 7.3900
+FRAX Train:
+	Accuracy: 0.5911
+	Precision: 0.3511
+	Recall: 0.4282
+	F1-score: 0.3858
+	AUC: 0.5631
+Test Fold Label Distr: {0: 13973, 1: 868}
+MODEL Test:
+	Accuracy: 0.9156
+	Precision: 0.1233
+	Recall: 0.0726
+	F1-score: 0.0914
+	AUC: 0.6304
+FRAX Test:
+	Accuracy: 0.6390
+	Precision: 0.0745
+	Recall: 0.4528
+	F1-score: 0.1280
+	AUC: 0.5765
+
+
+Fold 3/5--------------------------
+Training Fold Label Distr: {0: 8103, 1: 3473}
+Best Parameters: {'C': 0.5963623316594643}
+MODEL Train:
+	Accuracy: 0.7012
+	Precision: 0.5143
+	Recall: 0.0723
+	F1-score: 0.1267
+	AUC: 0.6428
+Optimal Threshold (Max Youden's J): 5.9000
+FRAX Train:
+	Accuracy: 0.5083
+	Precision: 0.3331
+	Recall: 0.6378
+	F1-score: 0.4377
+	AUC: 0.5663
+Test Fold Label Distr: {0: 13973, 1: 868}
+MODEL Test:
+	Accuracy: 0.9220
+	Precision: 0.1429
+	Recall: 0.0668
+	F1-score: 0.0911
+	AUC: 0.6238
+FRAX Test:
+	Accuracy: 0.4669
+	Precision: 0.0647
+	Recall: 0.6025
+	F1-score: 0.1168
+	AUC: 0.5506
+
+
+Fold 4/5--------------------------
+Training Fold Label Distr: {0: 8101, 1: 3472}
+Best Parameters: {'C': 1.5264179671752334}
+MODEL Train:
+	Accuracy: 0.7085
+	Precision: 0.5842
+	Recall: 0.0979
+	F1-score: 0.1677
+	AUC: 0.6445
+Optimal Threshold (Max Youden's J): 5.5500
+FRAX Train:
+	Accuracy: 0.4952
+	Precision: 0.3327
+	Recall: 0.6789
+	F1-score: 0.4466
+	AUC: 0.5657
+Test Fold Label Distr: {0: 13972, 1: 869}
+MODEL Test:
+	Accuracy: 0.9138
+	Precision: 0.1286
+	Recall: 0.0817
+	F1-score: 0.0999
+	AUC: 0.6425
+FRAX Test:
+	Accuracy: 0.4193
+	Precision: 0.0666
+	Recall: 0.6847
+	F1-score: 0.1213
+	AUC: 0.5781
+
+
+Fold 5/5--------------------------
+Training Fold Label Distr: {0: 8103, 1: 3473}
+Best Parameters: {'C': 0.9540954763499944}
+MODEL Train:
+	Accuracy: 0.7040
+	Precision: 0.5444
+	Recall: 0.0829
+	F1-score: 0.1439
+	AUC: 0.6438
+Optimal Threshold (Max Youden's J): 7.4700
+FRAX Train:
+	Accuracy: 0.5969
+	Precision: 0.3548
+	Recall: 0.4198
+	F1-score: 0.3846
+	AUC: 0.5662
+Test Fold Label Distr: {0: 13972, 1: 868}
+MODEL Test:
+	Accuracy: 0.9173
+	Precision: 0.1657
+	Recall: 0.1025
+	F1-score: 0.1267
+	AUC: 0.6492
+FRAX Test:
+	Accuracy: 0.6505
+	Precision: 0.0745
+	Recall: 0.4355
+	F1-score: 0.1272
+	AUC: 0.5721
+
+

@@ -84,7 +84,7 @@ if __name__ == "__main__":
 
     parser = argparse.ArgumentParser(description="MLP Model Selection and Cohort Specification")
     parser.add_argument("--model", type=str, required=True, help="Specify the MLP model (e.g., 'mlp_3layer', 'mlp_5layer', or custom model)")
-    parser.add_argument("--cohort", type=str, required=True, help="Specify the cohort name (e.g., '0', '1', 'all')")
+    parser.add_argument("--cohort", type=int, default = None, required=False, help="Specify the cohort name (e.g., '0', '1', 'all')")
     args = parser.parse_args()
  
     model_type = args.model
