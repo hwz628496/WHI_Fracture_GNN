@@ -10,15 +10,14 @@ def FRAX_maximize_youden_j(y_true: pd.Series, y_prob: pd.Series) -> float:
     :param y_prob: Pandas Series of predicted probabilities.
     :return: The optimal threshold for classification.
     """
-    # Compute ROC curve
+
     fpr, tpr, thresholds = roc_curve(y_true, y_prob)
     
-    # Compute Youden’s J statistic
+    # Youden’s J statistic
     j_scores = tpr - fpr
 
-    # Find the optimal threshold (maximum J score)
+    #optimal threshold (maximum J score)
     best_threshold = thresholds[np.argmax(j_scores)]
-
     print(f"Optimal Threshold (Max Youden's J): {best_threshold:.4f}")
 
     return best_threshold

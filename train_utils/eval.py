@@ -1,3 +1,18 @@
+#os
+import importlib.metadata
+import json
+import logging
+import os
+import re
+import tempfile
+import time
+import ast
+from pathlib import Path
+from typing import Any, Callable, Dict, List, Literal, Optional, Tuple, Type, TypeVar, Union
+
+
+import torch
+
 from sklearn.metrics import accuracy_score, roc_auc_score, precision_score, recall_score, f1_score
 import warnings
 warnings.filterwarnings("ignore")
@@ -29,16 +44,27 @@ def evaluate_model(y_true, y_pred, y_prob=None, descr = None):
 
     return metrics
 
-    
-    #extract featuresd
-    y_pred = model.predict(X_train_balanced)
-    y_prob = model.predict_proba(X_train_balanced)[:, 1]
 
-def eval_run(model, x, y, descr = None):
-    y_pred = model.predict(x)
-    y_prob = model.predict_proba(x)[:, 1]
-    evaluate_model(y, y_pred, y_prob, descr = descr)
+#SKLEARN WRAPPER
+def eval_run(model, x, y, 
+             model_type: Optional[str] = "sklearn", 
+             descr = None):
 
+    #tensor type
+    if model_type is not "sklearn":
+        with torch.no_grad():
+            logits = model(x)
+            y_prob = torch.sigmoid(logits).detach().cpu().numpy()  # Convert logits to probabilities
+            y_pred = (y_prob > 0.5).astype(int)  # Convert probabilities to binary predictions
+            metrics = evaluate_model(y.detach().cpu().numpy(), y_pred, y_prob, descr = descr)
+    else:
+        y_pred = model.predict(x)
+        y_prob = model.predict_proba(x)[:, 1]
+        metrics = evaluate_model(y, y_pred, y_prob, descr = descr)
+        
+    return metrics
+
+#SKLEARN WRAPPER
 def eval_frax(frax_scores, labels, descr = None, threshold = None):
     if threshold:
         pass

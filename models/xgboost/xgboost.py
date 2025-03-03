@@ -4,7 +4,7 @@ import numpy as np
 def get_xgboost():
     cv_avail = True
 
-    model = XGBClassifier(use_label_encoder=False, eval_metric='logloss')
+    model = XGBClassifier(use_label_encoder=False, eval_metric='logloss', tree_method = "hist", device = "cuda:0")
     param_dist = {
         'n_estimators': [50, 100, 200],
         'max_depth': [3, 5, 7, 10],
