@@ -174,3 +174,5 @@ cython_debug/
 # PyPI configuration file
 .pypirc
 notebooks_model/GNN/edge_matrix.npy
+.DS_Store
+.DS_Store
